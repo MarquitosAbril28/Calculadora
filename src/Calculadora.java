@@ -47,7 +47,7 @@ public class Calculadora {
     public int dividir(int a, int b) {
         if (b == 0) {
             // Es buena práctica controlar o documentar la división por cero en Java
-            throw new ArithmeticException("No se puede dividir por cero, boquerón.");
+            throw new ArithmeticException("No se puede dividir por cero");
         }
         return a / b;
     }
